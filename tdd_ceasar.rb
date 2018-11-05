@@ -11,10 +11,13 @@ class My_test < Minitest::Test
     assert_equal("y", encoder("t"))
   end
 
-  def test_for_xyz
+  def test_for_stu
     assert_equal("xyz", encoder("stu"))
   end
 
+  def test_for_xyz
+    assert_equal("stu", encoder("xyz"))
+  end
 
 
 
