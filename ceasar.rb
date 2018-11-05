@@ -1,4 +1,4 @@
 def encoder(string)
-  string = string.tr('a-u', 'f-z' )
-
+  str = string.tr('a-u, v-z', 'f-z, a-e')
+#  return str
 end
