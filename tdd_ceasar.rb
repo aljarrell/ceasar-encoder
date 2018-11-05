@@ -28,7 +28,7 @@ class My_test < Minitest::Test
   end
 
   def test_for_symbols
-    assert_equal("", encoder("*"))
+    assert_equal("*", encoder("*"))
   end
 
 
