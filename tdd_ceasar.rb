@@ -35,6 +35,10 @@ class My_test < Minitest::Test
     assert_equal("6", encoder(1))
   end
 
+  def test_for_decoder_fgh
+    assert_equal("abc", decoder("fgh"))
+  end
+
 
 
 end
