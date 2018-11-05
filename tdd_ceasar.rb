@@ -43,6 +43,10 @@ class My_test < Minitest::Test
     assert_equal("1", decoder(6))
   end
 
+  def test_decoder_for_symbols
+    assert_equal("*", decoder("*"))
+  end
+
 
 
 end
