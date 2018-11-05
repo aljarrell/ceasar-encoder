@@ -12,7 +12,7 @@ class My_test < Minitest::Test
   end
 
   def test_for_xyz
-    assert_equal("", encoder("stu"))
+    assert_equal("xyz", encoder("stu"))
   end
 
 
