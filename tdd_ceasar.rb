@@ -23,5 +23,10 @@ class My_test < Minitest::Test
     assert_equal("mjqqt btwqi", encoder("hello world"))
   end
 
+  def test_for_uppercase_y
+    assert_equal("", encoder("Y"))
+  end
+
+
 
 end
