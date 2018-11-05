@@ -19,6 +19,9 @@ class My_test < Minitest::Test
     assert_equal("fgh", encoder("abc"))
   end
 
+  def test_for_hello_world
+    assert_equal("mjqqt btwqi", encoder("hello world"))
+  end
 
 
 end
