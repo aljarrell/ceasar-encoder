@@ -8,7 +8,10 @@ class My_test < Minitest::Test
   end
 
   def test_for_a
-    assert_equal("", encoder("t"))
+    assert_equal("y", encoder("t"))
   end
+
+
+
 
 end
