@@ -24,7 +24,7 @@ class My_test < Minitest::Test
   end
 
   def test_for_uppercase_y
-    assert_equal("", encoder("Y"))
+    assert_equal("D", encoder("Y"))
   end
 
 
