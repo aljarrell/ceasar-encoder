@@ -31,6 +31,10 @@ class My_test < Minitest::Test
     assert_equal("*", encoder("*"))
   end
 
+  def test_for_numbers
+    assert_equal("6", encoder(1))
+  end
+
 
 
 end
