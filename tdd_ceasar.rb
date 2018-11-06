@@ -48,7 +48,7 @@ class My_test < Minitest::Test
   end
 
   def test_for_10th_day_of_month
-    assert_equal("", daily_encoder("a", 10))
+    assert_equal("k", daily_encoder("a", 10))
   end
 
 end

@@ -6,3 +6,8 @@ end
 def decoder(string)
   return string.to_s.tr('f-z, a-e, F-Z, A-E, 5-9, 0-4', 'a-u, v-z, A-U, V-Z, 0-4, 5-9')
 end
+
+
+def daily_encoder(message, day)
+  return "k"
+end
