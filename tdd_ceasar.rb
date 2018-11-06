@@ -51,4 +51,8 @@ class My_test < Minitest::Test
     assert_equal("k", daily_encoder("a", 10))
   end
 
+  def test_for_whole_word_10th_day_of_month
+    assert_equal("", daily_encoder("hello", 10))
+  end
+
 end
