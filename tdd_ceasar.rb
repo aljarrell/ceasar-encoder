@@ -55,4 +55,8 @@ class My_test < Minitest::Test
     assert_equal("rovvy", daily_encoder("hello", 10))
   end
 
+  def test_for_hello_9th_day
+    assert_equal("", daily_encoder("hello", 9))
+  end
+
 end
