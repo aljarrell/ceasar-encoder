@@ -7,5 +7,5 @@ def decoder(string)
 end
 
 def daily_encoder(message, day)
-  return message.to_s.tr('a-p, q-z', 'k-z, a-j')
+  return message.to_s.tr("a-z, A-Z",[*"a".."z", *"A".."Z"].rotate(day).join).to_s
 end
