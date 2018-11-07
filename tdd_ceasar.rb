@@ -71,7 +71,7 @@ class My_test < Minitest::Test
     assert_equal("hello", daily_decoder("qnuux", 9))
   end
 
-  def test_for_daily_decoder_letter
+  def test_for_daily_decoder_kill
      assert_equal("kill", daily_decoder("pnqq", 5))
    end
 
