@@ -59,4 +59,12 @@ class My_test < Minitest::Test
     assert_equal("qnuux", daily_encoder("hello", 9))
   end
 
+  def test_for_hello_world_15th_day
+    assert_equal("Wtbbe Mehbs", daily_encoder("Hello World", 15))
+  end
+
+  def test_for_daily_decoder
+    assert_equal("Hello World", daily_decoder("Wtbbe Mehbs", 15))
+  end
+
 end
