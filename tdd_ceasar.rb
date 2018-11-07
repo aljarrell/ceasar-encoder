@@ -52,7 +52,7 @@ class My_test < Minitest::Test
   end
 
   def test_for_whole_word_10th_day_of_month
-    assert_equal("", daily_encoder("hello", 10))
+    assert_equal("rovvy", daily_encoder("hello", 10))
   end
 
 end
