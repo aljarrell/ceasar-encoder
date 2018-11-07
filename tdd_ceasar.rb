@@ -47,24 +47,32 @@ class My_test < Minitest::Test
   #   assert_equal("*", decoder("*"))
   # end
 
-  def test_for_10th_day_of_month
-    assert_equal("k", daily_encoder("a", 10))
-  end
+  # def test_for_10th_day_of_month
+  #   assert_equal("k", daily_encoder("a", 10))
+  # end
+  #
+  # def test_for_whole_word_10th_day_of_month
+  #   assert_equal("rovvy", daily_encoder("hello", 10))
+  # end
+  #
+  # def test_for_hello_9th_day
+  #   assert_equal("qnuux", daily_encoder("hello", 9))
+  # end
+  #
+  # def test_for_hello_world_15th_day
+  #   assert_equal("Wtbbe Mehbs", daily_encoder("Hello World", 15))
+  # end
+  #
+  # def test_for_hello_world_15th_day
+  #   assert_equal("wtbbe mehbs", daily_encoder("hello world", 15))
+  # end
 
-  def test_for_whole_word_10th_day_of_month
-    assert_equal("rovvy", daily_encoder("hello", 10))
-  end
+  # def test_for_daily_decoder
+  #   assert_equal("Hello World", daily_decoder("Wtbbe Mehbs", 15))
+  # end
 
-  def test_for_hello_9th_day
-    assert_equal("qnuux", daily_encoder("hello", 9))
-  end
-
-  def test_for_hello_world_15th_day
-    assert_equal("Wtbbe Mehbs", daily_encoder("Hello World", 15))
-  end
-
-  def test_for_daily_decoder
-    assert_equal("Hello World", daily_decoder("Wtbbe Mehbs", 15))
-  end
+  def test_for_daily_encoder_letter
+     assert_equal("kill", daily_decoder("pnqq", 5))
+   end
 
 end
